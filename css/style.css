@@ -1,0 +1,50 @@
+a
+{
+	color: #DD4F24;
+}
+
+body
+{
+	background: #050100;
+	color:#2d2d2d;
+	font-family: Arial;
+	font-size:16px;
+	margin: 0px;
+}
+header:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+header{
+	color:white;
+	background: black;
+	margin: 0px;
+	padding: 0.5em;
+}
+header img{
+	float:left;
+}
+header #menu{
+	
+	width: 50px;
+
+	
+}
+header h1{
+	font-size: 21px;
+	font-weight: normal;
+	display: block;
+	margin-left: 4em;
+
+}
+
+
+header #lupa
+{
+	position:absolute;
+	float: right;
+	width: 50px;
+	top:0px;
+	right: 0px;
+}
