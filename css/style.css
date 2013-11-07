@@ -111,6 +111,10 @@ nav #vid a:after
 	
 
 }
+footer
+{
+	clear: both;
+}
 footer #redessociales ,footer #formulario
 {
 	display: inline-block;
@@ -215,6 +219,9 @@ footer #redessociales ,footer #formulario
 	display: inline-block;
 	padding-top: 20px;
 	padding-left: 20px;
+}
+#redessociales a:hover{
+	color:#c7c7c7;
 }
 #face:after{
 

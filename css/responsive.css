@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px)
+{
+	body{
+		margin: 0 auto;
+	}
+	#contenido{
+		width: 85%;
+	}
+	#asideiz{
+		width: 15%;
+		height: 800px;
+		background: white;
+		float:left;
+	}
+	#asideder{
+		width: 15%;
+		height: 800px;
+		background: blue;
+		float: right;
+	}
+}
