@@ -1,50 +1,253 @@
-a
-{
-	color: #DD4F24;
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
+a
+{
+	color: white;
+	text-decoration: none;
+}
 body
 {
-	background: #050100;
+	background: #141414; 
 	color:#2d2d2d;
 	font-family: Arial;
 	font-size:16px;
 	margin: 0px;
-}
-header:after{
-	clear: both;
-	content: "";
-	display: block;
+
 }
 header{
+	border-bottom:3px solid black;
 	color:white;
-	background: black;
 	margin: 0px;
 	padding: 0.5em;
 }
 header img{
 	float:left;
 }
-header #menu{
-	
-	width: 50px;
-
-	
-}
 header h1{
+	display: block;
 	font-size: 21px;
 	font-weight: normal;
-	display: block;
-	margin-left: 4em;
+	margin:1em 35px 0em 0em;
+	text-align: center;
 
+}
+header #menu{
+	width: 50px;
+}
+header #lupa
+{
+	float: right;
+	position:absolute;
+	right: 0px;
+	top:0px;
+	width: 50px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin: 0;
+	padding:0px;
+	position:relative;
+	width: 24.3%;
+	
+}
+nav ul li a{
+	color : #c7c7c7;
+	border-left:2px solid black;
+	display: block;
+	font-size: 2.5em;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	
+	width: 102%;
+	font-family: 'icomoon';
+
+}
+nav ul li  :hover{
+	background: #04169c;
+}
+
+nav #pol a:after
+{
+	
+	content: "\e605";
+
+	
+
+}
+nav #del a:after{
+
+	content: "\e60d";
+	
+}
+
+nav #tran a:after
+{
+	
+	content: "\e600";
+	
+
+}
+nav #vid a:after
+{
+	
+	content: "\e606";
+	
+
+}
+footer #redessociales ,footer #formulario
+{
+	display: inline-block;
+	
+}
+
+#nota
+{
+	text-align: right;
+	font-size: 13px;
+	height: 20px;
+	color:white;
+	background: #5d5d5d;
+	padding-right: 12px;
+}
+#contenido .noticia{
+    
+	background: white;
+	position: relative;
+	height: 154px;
+	margin-bottom: 3px;
+
+}
+#contenido .noticia .not-imagen, #contenido .noticia .not-hora, #contenido .noticia .not-centro
+{
+	display: inline-block;
+}
+#contenido .noticia .not-imagen {
+	float: left;
+	margin: 0px 1em 0px 0px;
+	padding: 0px;
+	height: 154px;
+}
+#contenido .noticia .not-imagen img
+{
+	width: 150px;
+	height: 154px;
+
+}
+#contenido .noticia .not-centro
+{
+
+	height: 154px;
+	width: 55%;
+	overflow: hidden;
+	padding-right: 3px;
+}	
+#contenido .noticia .not-hora{
+	background: #2b2b2b;
+	float:right;
+	height: 154px;
+	width: 40px;
+	position: absolute;
+	top:0;
+	right:0;
+
+}
+#contenido .noticia .not-centro .not-titulo
+{
+	margin: 0px;
+}
+#contenido .noticia .not-centro .not-cuerpo
+{
+	margin: 0px;
+	font-size: 14px;
+}
+#contenido .noticia .not-centro .not-titulo a
+{
+	text-decoration: none;
+	color:#2b2b2b;
+	font-size: 0.8em;
+
+}
+#contenido .noticia .not-hora .hora ,#contenido .noticia .not-hora .icon-hora
+{
+	display: block;
+	height: 75px;
+	text-align: center;
+	line-height: 75px;
 }
 
 
-header #lupa
+.icon-hora:after
 {
-	position:absolute;
-	float: right;
-	width: 50px;
-	top:0px;
-	right: 0px;
+	font-family: 'icomoon';
+	content:"\e602";
+	color:yellow;
+	font-size: 30px;
+}
+
+#redessociales
+{
+		font-size: 50px;
+		font-family: 'icomoon';
+		float: left;
+		width: 50%;
+		padding-top: 20px;
+		text-align: center;
+
+}
+#redessociales a{
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#face:after{
+
+	content:"\e602";
+}
+#twitter:after{
+
+	content:"\e609";
+}
+#you:after{
+
+	content:"\e60f";
+}
+#goo:after{
+
+	content:"\e60b";
+}
+#formulario
+{
+	float: left;
+	width: 50%;
+
+
+}
+#formulario form
+{
+	display: block;
+	text-align: center
+}
+#registro {
+	clear: both;
+	padding-top: 20px;
+	color:white;
+	height: 50px;
+	text-align: center;
 }
