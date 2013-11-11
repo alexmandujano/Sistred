@@ -22,4 +22,13 @@
 		background: blue;
 		float: right;
 	}
+header #slider
+{
+	height: 300px;
+	width: 100%;
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+
 }
