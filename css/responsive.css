@@ -4,20 +4,21 @@
 		margin: 0 auto;
 	}
 	#contenido{
-		width: 85%;
+		width: 57%;
+		margin: 0 auto;
 	}
 	#contenido .noticia .not-centro{
-		width: 51%;
+		width: 61%;
 		margin: 0px 2em 0px 0px;
 	}
 	#asideiz{
-		width: 15%;
+		width: 20%;
 		height: 800px;
 		background: white;
 		float:left;
 	}
 	#asideder{
-		width: 15%;
+		width: 20%;
 		height: 800px;
 		background: blue;
 		float: right;
