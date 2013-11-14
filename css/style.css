@@ -157,7 +157,8 @@ footer #redessociales ,footer #formulario
 #nota
 {
 	position: relative;
-	text-align: center;
+	text-align: left;
+	line-height: 30px;
 	font-size: 13px;
 	height: 30px;
 	color:white;
@@ -214,21 +215,11 @@ footer #redessociales ,footer #formulario
 {
 
 	height: 130px;
-	width: 63%;
-	overflow: auto;
+	width: 73%;
+	overflow: hidden;
 	
 }	
-#contenido .noticia .not-hora{
-	background: #2b2b2b;
-	float:right;
-	height: 130px;
-	width: 10%;
-	max-width: 46px;
-	position: absolute;
-	top:0;
-	right:0;
 
-}
 #contenido .noticia .not-centro .not-titulo
 {
 	margin: 0px;
@@ -245,23 +236,10 @@ footer #redessociales ,footer #formulario
 	font-size: 0.8em;
 
 }
-#contenido .noticia .not-hora .hora ,#contenido .noticia .not-hora .icon-hora
-{
-	display: block;
-	height: 65px;
-	text-align: center;
-	line-height: 65px;
-	font-size: 13px;
-}
 
 
-.icon-hora:after
-{
-	font-family: 'icomoon';
-	content:"\e602";
-	color:yellow;
-	font-size: 30px;
-}
+
+
 
 #redessociales
 {
@@ -269,14 +247,14 @@ footer #redessociales ,footer #formulario
 		font-family: 'icomoon';
 		float: left;
 		width: 50%;
-		padding-top: 20px;
+		padding-top: 10px;
 		text-align: center;
 
 }
 #redessociales a{
 	display: inline-block;
-	padding-top: 20px;
-	padding-left: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 #redessociales a:hover{
 	color:#c7c7c7;
