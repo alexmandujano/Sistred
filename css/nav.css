@@ -1,0 +1,51 @@
+
+nav{
+	text-align: center;
+	background: black;
+	display: none;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0px;
+	z-index: 1;
+}
+
+nav li a {
+	background: #000;
+	color:#fff;
+	text-decoration: none;
+	padding:10px 15px;
+	display: block;
+}
+nav li a:hover {
+	background: #434343;
+
+}
+nav #menu > li{
+
+ display: inline-block;
+ margin-right: 0px;
+
+ 	
+}
+nav li ul{
+	display: none;
+	position:absolute;
+	min-width:140px;
+}
+
+nav li:hover>ul{
+	display: block;
+	float: right;
+	opacity: 0.9;
+}
+nav li ul li
+{
+	position: relative;
+}
+nav li ul li ul
+{
+	right: -140px;
+	top:0px;
+}

@@ -108,15 +108,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	
 
 
-header #slider
-{
-	height: 300px;
-	width: 100%;
-	background: white;
-	padding: 0;
-	margin: 0;
-}
+
 
 #nota{
 	text-align: center;
+}
+nav
+{
+	display: block;
+	
+}
+header img ,#menuface{
+	display: none;
+	
 }

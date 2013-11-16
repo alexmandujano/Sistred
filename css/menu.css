@@ -1,0 +1,32 @@
+
+#menuface{
+	background-color:#32394b;
+	color: #ccc;
+	height: 480px;
+	position: absolute;
+	overflow: hidden;
+	top:0;
+	left: -200px;
+	width: 200px;
+	z-index: 5;
+	
+}
+#menuface li{
+	padding: 20px 10px;
+	list-style: none;
+	border-bottom:  solid 2px #000;
+	border-top:  solid 1px #4a5572;
+
+
+}
+#menuface li a{
+	color: #ccc;
+	font-size:18px;
+	text-decoration: none;
+}
+
+#menuiz{
+	cursor: pointer;
+	padding: 5px;
+
+}
